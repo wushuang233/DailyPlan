@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Daily Plan</string>
+    <string name="hello_world_welcome_to_computer">Hello World ! Welcome to Computer !</string>
+    <string name="login">登陆</string>
+    <string name="dailyPlan">每日计划</string>
+    <string name="daily_plan">Daily Plan</string>
+    <string name="signIn">登录</string>
+    <string name="input">输入…</string>
+    <string name="focus">专注</string>
+    <string name="home">首页</string>
+    <string name="mine">我的</string>
+    <string name="logo_picture">logo_picture</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="getPasswordBack">找回密码</string>
+    <string name="phoneFastLogin">手机快速登录</string>
+    <string name="tencentQQ">qq</string>
+    <string name="weiXin">微信</string>
+    <string name="sina">新浪</string>
+    <string name="fastLogin">--快捷登录--</string>
+    <string name="select_start_date">Select start date</string>
+    <string name="select_end_date">select_end_date</string>
+    <string name="title">标题</string>
+    <string name="save">保存</string>
+    <string name="startdata">开始日期</string>
+    <string name="enddate">结束日期</string>
+    <string name="milebox">邮箱</string>
+    <string name="gender">性别</string>
+    <string name="age">年龄</string>
+    <string name="register">注册</string>
+    <string-array name="weekday_array">
+        <item>请输入</item>
+        <item>不重复</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+</resources>

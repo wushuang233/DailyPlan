@@ -1,0 +1,132 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/header_container"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="#87CEEB"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#87CEEB" />
+
+        <ImageView
+            android:id="@+id/image_view_square"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/daily_plan_image"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/new_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+自定义"
+        android:textSize="14sp"
+        android:backgroundTint="#8A2BE2"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toTopOf="@id/header_container"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/radio_button_25min"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="选择专注25min"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:backgroundTint="#6A0DAD"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/header_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <Button
+        android:id="@+id/radio_button_30min"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="选择专注30min"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:backgroundTint="#6A0DAD"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/radio_button_25min"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <Button
+        android:id="@+id/radio_button_40min"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="选择专注40min"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:backgroundTint="#6A0DAD"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/radio_button_30min"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <Button
+        android:id="@+id/radio_button_60min"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="选择专注60min"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:backgroundTint="#6A0DAD"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/radio_button_40min"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <TextView
+        android:id="@+id/countdown_text_view"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="@drawable/textview_background2"
+        android:gravity="center"
+        android:text="选择任意专注时间开始完成自己的计划吧~"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintTop_toBottomOf="@id/radio_button_60min"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp" />
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottom_navigation"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="?android:attr/windowBackground"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:menu="@menu/bottom_navigation_menu" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

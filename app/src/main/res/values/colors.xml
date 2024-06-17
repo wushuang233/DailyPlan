@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- 添加其他颜色定义 -->
+    <color name="colorPrimary">#FFA500</color> <!-- 你原来的 colorPrimary 颜色定义 -->
+    <color name="colorWhite">#FFFFFF</color> <!-- 白色 -->
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+</resources>
